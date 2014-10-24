@@ -1,0 +1,15 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>仿百度分页</title>
+</head>
+<body>
+        <ul>
+            <?php foreach($content as $v){ ?>
+            <li><?php echo $v["title"] ?></li><hr/>
+            <?php } ?>
+        </ul>
+
+    <div><?php echo $info ?></div>
+</body>
+</html>
